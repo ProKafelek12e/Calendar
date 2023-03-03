@@ -1,0 +1,18 @@
+#miniCalendar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 280px;
+    border: 3px solid black;
+}
+.day{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+}
